@@ -1,0 +1,26 @@
+body {
+  background-color: #ecfee8;
+}
+
+h1,
+h3 {
+  font-weight: 100;
+}
+
+h1 {
+  color: #41337a;
+}
+
+h3 {
+  color: #6ea4bf;
+}
+
+article h3 {
+  /* article > h3 would apply to only the h3's that are immediate children of article */
+  font-style: italic;
+}
+
+.guitar h3 {
+  font-style: italic;
+}
+/* Another way of targeting the h3's within the article. More specific */
