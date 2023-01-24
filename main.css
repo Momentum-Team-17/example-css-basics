@@ -12,12 +12,21 @@ h1 {
 }
 
 h3 {
-  color: #6ea4bf;
+  color: black;
 }
 
 article h3 {
   /* article > h3 would apply to only the h3's that are immediate children of article */
   font-style: italic;
+}
+
+article {
+  background-color: #6ea4bf;
+  display: flex;
+  /* this makes the article element a "flexbox" to which we can apply flex properties, makes flexbox available as a tool for this block */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .guitar h3 {
@@ -29,5 +38,12 @@ header {
   border: 2px solid #41337a;
   width: 80%;
   margin: 0 auto;
+  /* aligns the block in its parent */
   text-align: center;
+  /* aligns the text in the block */
+}
+
+section {
+  border: 2px solid black;
+  min-width: 30%;
 }
