@@ -24,3 +24,10 @@ article h3 {
   font-style: italic;
 }
 /* Another way of targeting the h3's within the article. More specific */
+
+header {
+  border: 2px solid #41337a;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
